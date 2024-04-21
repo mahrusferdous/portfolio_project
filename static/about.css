@@ -41,6 +41,10 @@ footer a {
     color: #bd7304;
 }
 
+footer a:hover {
+    color: #0167ff;
+}
+
 article {
     color: #8a7604;
     display: flex;
@@ -62,4 +66,19 @@ section div {
     flex-direction: column;
     align-items: center;
     margin: 135px 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    article {
+        margin: 5rem 5rem;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+    }
+
+    section div {
+        margin: 5rem 2rem;
+    }
+    
 }
