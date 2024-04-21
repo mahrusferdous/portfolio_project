@@ -58,10 +58,8 @@ section {
 section div {
     color: #8a7604;
     padding: 1rem;
-    border: 5px solid #000;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 8rem 2rem;
+    margin: 135px 2rem;
 }

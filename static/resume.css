@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #333;
+
 }
 
 header {
@@ -39,4 +40,47 @@ footer {
 
 footer a {
     color: #bd7304;
+}
+
+main {
+    padding: 5rem;
+    color: #8a7604;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main h1 {
+    color: #bd7304;
+}
+
+.project a {
+    text-decoration: none;
+    color: #8a7604;
+}
+
+.project a:hover {
+    color: #0167ff;
+}
+
+.project, .certification, .skills, .experience, .education  {
+    border: 5px solid #000000;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.479);
+    margin: 5rem;
+}
+
+.skills_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
 }
