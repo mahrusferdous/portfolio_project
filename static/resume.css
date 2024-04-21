@@ -40,26 +40,3 @@ footer {
 footer a {
     color: #bd7304;
 }
-
-img {
-    width: 500px;
-    height: 500px;
-    border-radius: 25%;
-}
-
-main {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin: 10rem 2rem;
-}
-
-h1 {
-    color: #bd7304;
-    font-size: 5rem;
-}
-
-h3 {
-    color: #bd7304;
-    font-size: 2rem;
-}
