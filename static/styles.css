@@ -81,4 +81,46 @@ h3 {
         width: 300px;
         height: 300px;
     }    
+
+    main {
+        margin: 5rem 2rem; 
+        gap: 100px;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
+
+@keyframes left {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes right {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .slideInLeft {
+    animation: left 1s ease;
+  }
+  
+  .slideInRight {
+    animation: right 1s ease;
+  }

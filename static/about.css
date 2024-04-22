@@ -16,7 +16,6 @@ header nav a {
     margin: 0 20px;
     text-decoration: none;
     color: #bd7304;
-
 }
 
 header nav a:hover {
@@ -79,6 +78,17 @@ section div {
 
     section div {
         margin: 5rem 2rem;
+    }
+
+    section div p {
+        text-align: center;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
 }

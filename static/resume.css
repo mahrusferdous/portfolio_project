@@ -96,5 +96,12 @@ main h1 {
         margin: 5rem 0;
         font-size: 1vh;
     }
+
+    header nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     
 }
